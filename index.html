@@ -3,9 +3,367 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Business Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo{
+    font-size: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 80px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.about {
+    padding: 50px 0;
+}
+
+.about h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 15px;
+}
+.services {
+    padding: 50px 0;
+}
+
+.services h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.service {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.service h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+.latest-news {
+    padding: 50px 0;
+}
+
+.latest-news h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.news-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.news-item h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.news-item .date {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+.job-openings {
+    padding: 50px 0;
+}
+
+.job-openings h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.job {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.job h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.job p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+.apply-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+}
+.contact {
+    padding: 50px 0;
+}
+
+.contact h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.contact-info .info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+    </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo"><a href="index.html">IBM</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="news.html">News & Recommendations</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+            <div class="container">
+                <h2>About IBM</h2>
+                <p>IBM, or International Business Machines Corporation, is a global technology and consulting company headquartered in Armonk, New York, USA. Established in 1911, IBM has a rich history of innovation and has played a significant role in shaping the digital era.</p>
+                
+                <p>At IBM, our mission is to lead in the creation, development, and manufacture of the industry's most advanced information technologies, including computer systems, software, networking systems, storage devices, and microelectronics. We provide companies with innovative solutions to complex business challenges, helping them adapt and thrive in the ever-changing digital landscape.</p>
+                
+                <p>With a presence in over 170 countries and regions, IBM serves clients across various industries, including healthcare, finance, retail, manufacturing, and government. Our diverse portfolio of products and services encompasses artificial intelligence, cloud computing, blockchain technology, cybersecurity, and more.</p>
+        
+                <p>Our commitment to innovation and excellence is deeply ingrained in our culture. We invest heavily in research and development to push the boundaries of what's possible and drive meaningful advancements in technology. Additionally, we prioritize sustainability and corporate responsibility, striving to make a positive impact on society and the environment.</p>
+                
+                <p>IBM's values of trust, responsibility, innovation, and inclusivity guide our actions and decisions every day. We believe in the power of technology to transform lives, businesses, and the world, and we're dedicated to helping our clients harness that power to achieve their goals.</p>
+                
+                <p>Learn more about IBM, explore our solutions, and discover how we can help you unlock new possibilities and drive success in the digital age.</p>
+            </div>
+        </section>
+        
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Artificial Intelligence</h3>
+                <p>Unlock the power of AI to drive innovation, improve decision-making, and enhance customer experiences.</p>
+            </div>
+            <div class="service">
+                <h3>Cloud Computing</h3>
+                <p>Transform your business with flexible, scalable, and secure cloud solutions tailored to your needs.</p>
+            </div>
+            <div class="service">
+                <h3>Blockchain Technology</h3>
+                <p>Explore the potential of blockchain for secure transactions, supply chain management, and more.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="latest-news">
+        <div class="container">
+            <h2>Latest News and Recommendations</h2>
+            <div class="news">
+                <div class="news-item">
+                    <h3>IBM Announces Breakthrough in Quantum Computing</h3>
+                    <p class="date">March 10, 2024</p>
+                    <p>IBM unveils the world's most powerful quantum computer, capable of solving complex problems that were previously unsolvable with traditional computers.</p>
+                </div>
+                <div class="news-item">
+                    <h3>IBM Launches AI-Powered Cybersecurity Solution</h3>
+                    <p class="date">February 25, 2024</p>
+                    <p>IBM introduces Watson Security Advisor, an AI-driven platform that helps businesses detect and respond to cyber threats in real-time.</p>
+                </div>
+                <div class="news-item">
+                    <h3>IBM Named Top Cloud Service Provider by Industry Experts</h3>
+                    <p class="date">February 12, 2024</p>
+                    <p>IBM Cloud recognized as the leading cloud service provider for its reliability, security, and innovation, according to a report by Gartner.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     
+
+        <section class="job-openings">
+            <div class="container">
+                <h2>Careers</h2>
+                <div class="job">
+                    <h3>Software Engineer</h3>
+                    <p>Location: New York, NY</p>
+                    <p>Experience: 2+ years</p>
+                    <a href="#" class="apply-button">Apply Now</a>
+                </div>
+                <div class="job">
+                    <h3>Data Scientist</h3>
+                    <p>Location: San Francisco, CA</p>
+                    <p>Experience: 3+ years</p>
+                    <a href="#" class="apply-button">Apply Now</a>
+                </div>
+                <div class="job">
+                    <h3>Cloud Architect</h3>
+                    <p>Location: Austin, TX</p>
+                    <p>Experience: 5+ years</p>
+                    <a href="#" class="apply-button">Apply Now</a>
+                </div>
+            </div>
+        </section>
+    
+        <section class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="contact-info">
+                    <div class="info">
+                        <h3>Address</h3>
+                        <p>123 Main Street<br>New York, NY 10001</p>
+                    </div>
+                    <div class="info">
+                        <h3>Phone</h3>
+                        <p>+1 (123) 456-7890</p>
+                    </div>
+                    <div class="info">
+                        <h3>Email</h3>
+                        <p>info@ibm.com</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    <footer>
+        <p>&copy; 2024 Company Name. All rights reserved.</p>
+    </footer>
 </body>
 </html>
